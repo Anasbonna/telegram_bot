@@ -4,7 +4,7 @@ import requests
 from flask import Flask, request
 
 # токен для идентификации бота
-TOKEN = "1458122236:AAHFL1UCZ0idJgdtFrR78tPtVv6EgkzxLBc"
+TOKEN = ""
 
 # базовый url для нашего бота
 BASE_URL = f"https://api.telegram.org/bot{TOKEN}"
