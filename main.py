@@ -42,6 +42,7 @@ def parse_text_messages(update):
     text = update["message"]["text"]
     return chat_id, text
 
+
 # функция для парсинга апдейта на предмет callback_query
 # возвращается кортежей вида (chat_id, data) если это callback_query
 # в противном случае возвращается None
