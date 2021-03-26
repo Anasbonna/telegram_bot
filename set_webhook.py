@@ -17,7 +17,7 @@ SET_WEBHOOK = BASE_URL + "/setWebhook"
 
 # параметры запроса
 set_webhook_parameters = {
-    'url': "https://a7ad989ce8a6.ngrok.io" + '/webhook',
+    'url': "" + '/webhook',
 }
 
 # устанавливаем webhook
